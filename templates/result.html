@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Review Sentiment Analysis</h1>
+        
+        <div class="senti">
+            <div class="review-text">
+                <p><b>Review:</b>
+                    <br>
+                    <p class="texttt"> {{ review }}</p>
+                </p>
+            </div>
+        
+            <div class="reaction">
+                {% if sentiment == 1 %}
+                    <img src="{{ url_for('static', filename='img_pool/Smiling_emoji.jpeg') }}" alt="Smile Emoji"> 
+                    <br>
+                    <p><b>Sentiment:</b><p class="textt" style="color: green;"> Positive</p>
+                {% else %}
+                    <img src="{{ url_for('static', filename='img_pool/Sad_emoji.jpeg') }}" alt="Sad Emoji">
+                    <br>
+                    <p><b>Sentiment:</b><p class="textt" style="color: red;">Negative</p></p>
+                {% endif %}
+        
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

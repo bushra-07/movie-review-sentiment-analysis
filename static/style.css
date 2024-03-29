@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center align items horizontally */
+    justify-content: center; /* Center align items vertically */
+    height: 90vh; /* Adjust height to fill the viewport */
+
+}
+
+.senti{
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center align items horizontally */
+    justify-content: center; /* Center align items vertically */
+    height: 90vh; /* Adjust height to fill the viewport */
+
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Center the submit button */
+.form-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+input[type="submit"] {
+    border: 2px solid rgb(110, 87, 224);
+    font-size: 14px;
+    cursor: pointer;
+    padding: 10px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-weight: 600;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    background: rgb(110, 87, 224);
+    color: #fff;
+    border-radius: 7px;
+    margin-top: 15px;    /*old margin-top: 25px */
+    text-decoration: none;
+}
+
+input[type="submit"]:hover {
+    background: transparent;
+    color: rgb(110, 87, 224);
+}
+/* END */
+
+
+/* Review */
+
+.review-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    
+}
+
+.textt{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.texttt{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: lightslategray;
+}
+
+.reaction .img{
+    height: 150px;
+    width: 150px;
+}
+
+
+
+/* TABLE */
