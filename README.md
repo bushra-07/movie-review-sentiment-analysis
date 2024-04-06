@@ -18,11 +18,9 @@ This project performs sentiment analysis on movie reviews using natural language
    ```bash
    cd movie-review-sentiment-analysis-flask
    ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+3. Install dependencies
 
+   
 ## Usage
 1. Data Preprocessing and Model Training:
    - Run the `review.py` script to preprocess the data, train the sentiment analysis model, and evaluate its performance.
