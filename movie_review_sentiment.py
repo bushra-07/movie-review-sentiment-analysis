@@ -19,8 +19,8 @@ df = pickle.load(open('movies.pkl', 'rb'))
 df_dict = pickle.load(open('movies_dictionary.pkl', 'rb'))
 
 # Download NLTK resources
-nltk.download('punkt')
-nltk.download('stopwords')
+# nltk.download('punkt')
+# nltk.download('stopwords')
 
 # Define data processing function
 def data_processing(text):

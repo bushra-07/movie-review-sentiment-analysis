@@ -43,7 +43,7 @@ textarea {
     justify-content: center;
 }
 
-input[type="submit"] {
+.input {
     border: 2px solid rgb(110, 87, 224);
     font-size: 14px;
     cursor: pointer;
@@ -63,7 +63,7 @@ input[type="submit"] {
     text-decoration: none;
 }
 
-input[type="submit"]:hover {
+.input:hover {
     background: transparent;
     color: rgb(110, 87, 224);
 }
